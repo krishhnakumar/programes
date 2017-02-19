@@ -12,7 +12,7 @@ int main()
    num/=10;
   }
   if(temp==su)
-   printf("amstrong")
+   printf("amstrong");
    else
    printf("not amstrong");
    
