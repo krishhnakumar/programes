@@ -3,7 +3,7 @@
 #include<math.h>
 void main()
 {
-   long int a[20],i,j,n,temp,c;
+   long int a[20],i,j,n,tem,c;
    long int sum=0;
    clrscr();
    scanf("%ld",&n);
@@ -17,19 +17,19 @@ for(i=0;i<n;i++)
  {
   if(a[j]>a[i])
  {
-  temp=a[i];
+  tem=a[i];
   a[i]=a[j];
-  a[j]=temp;
+  a[j]=tem;
  }
  }
 }
 for(i=0;i<n-1;i++)
 {
-  temp=a[i+1];
+  tem=a[i+1];
   c=0;
-  while(temp!=0)
+  while(tem!=0)
   {
-    temp=temp/10;
+    tem=tem/10;
     c++;
   }
   sum=(sum*pow(10,c))+a[i+1];
