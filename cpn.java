@@ -4,20 +4,20 @@ class Sample
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        int n,n1,i,j,count=0,flag;
+        int n,n1,i,j,count=0,fla;
         n=sc.nextInt();
         n1=sc.nextInt();
         for(i=n;i<=n1;i++)
         {
-             flag=0;
+             fla=0;
             for(j=2;j<i;j++)
             {
                 if(i%j==0)
                 {
-                    flag=1;
+                    fla=1;
                 }
             }
-            if(flag==0)
+            if(fla==0)
                 count++;
         }
         
