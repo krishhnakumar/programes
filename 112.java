@@ -3,10 +3,10 @@ class sample
 {
 public static void main(String[] args) {
         
-        String str;
+        String st;
         Scanner in=new Scanner(System.in);
-        str=in.nextLine();
-        String str1[]=str.split(" ");
+        st=in.nextLine();
+        String str1[]=st.split(" ");
         int i;
         for(i=0;i<str1.length;i++)
         {
